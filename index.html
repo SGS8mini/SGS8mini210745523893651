@@ -424,8 +424,8 @@
 
       // Dodatkowe opóźnienie 1 s przed wysłaniem żądania
       setTimeout(() => {
-        const urlOn = `https://fra1.blynk.cloud/external/api/update?token=${token}&v0=1`;
-        const urlOff = `https://fra1.blynk.cloud/external/api/update?token=${token}&v0=0`;
+        const urlOn = `https://fra1.blynk.cloud/external/api/update?token=-${token}&v0=1`;
+        const urlOff = `https://fra1.blynk.cloud/external/api/update?token=-${token}&v0=0`;
 
         // Włączamy wirtualny pin na 1 sekundę
         const imgOn = new Image();
